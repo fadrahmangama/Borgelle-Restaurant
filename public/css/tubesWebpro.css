@@ -1,0 +1,336 @@
+.row {
+  height: 500px;
+}
+
+.pop-menu .kolom2 {
+  display: flex;
+}
+
+.promo-header h1 {
+  margin-top: 10px;
+  font-family: Merriweather;
+  text-align: center;
+  font-weight: 800;
+}
+
+.promo-header h1 span {
+  color: rgba(255, 135, 71, 1);
+}
+
+.slides {
+  display: flex;
+}
+
+.promo-images {
+  width: 100%;
+  transition: 2s;
+}
+
+.promo-images img {
+  height: 400px;
+  width: 1010px;
+}
+
+.promo-wrapper {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+#slide-1:target~.promo-images {
+  margin-left: 0;
+}
+
+#slide-2:target~.promo-images {
+  margin-left: -100%;
+  margin-right: 100%;
+}
+
+#slide-3:target~.promo-images {
+  margin-left: -200%;
+  margin-right: 200%;
+}
+
+.navigation {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.navigation a {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  margin: 5px;
+  background-color: #dedede;
+  font-size: 0px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.navigation a:hover {
+  background-color: rgba(255, 135, 71, 1);
+}
+
+@media screen and (max-width:800px) {
+  .promo-wrapper {
+    width: 90%;
+  }
+}
+
+.pop-menu-header h1 {
+  margin-top: 10px;
+  font-family: Merriweather;
+  text-align: center;
+  font-weight: 800;
+}
+
+.pop-menu-header h1 span {
+  color: rgba(255, 135, 71, 1);
+}
+
+.pop-menu-tulisan {
+  margin-left: 20px;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.pop-menu .tambah {
+  height: 200px;
+}
+
+.pop-menu .deh h3 {
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+.pop-menu .deh img {
+  width: 100x;
+  height: 100px;
+}
+
+.row {
+  height: 500px;
+}
+
+.icon {
+  background-color: white;
+  margin-bottom: 10px;
+  margin-top: 8px;
+}
+
+#navbar {
+  box-sizing: border-box;
+  background-color: white;
+  text-align: center;
+  background-color: black;
+}
+
+#navbar li {
+  list-style: none;
+  display: inline-block;
+  margin: 40px 9px 0px 9px;
+  font-size: 18px;
+}
+
+#navbar li a {
+  text-decoration: none;
+  color: white;
+}
+
+#tambahan {
+  margin: auto;
+  text-align: right;
+}
+
+#tambahan button {
+  margin-right: 50px;
+  width: 75px;
+  height: 40px;
+  font-size: 16px;
+}
+
+#tambahan img {
+  width: 25px;
+  margin-right: 13px;
+  margin-left: 5px;
+}
+
+#hitam {
+  background-color: black;
+}
+
+.head1 {
+  background-color: black;
+}
+
+#logo img {
+  width: 80%;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+
+.header img {
+  width: 500px;
+}
+
+#satu .tulisan {
+  text-align: justify;
+  margin-top: 150px;
+  margin-left: 120px;
+  font-family: Georgia, serif;
+  font-weight: 900;
+}
+
+#satu h2 {
+  font-size: 50px;
+}
+
+#satu button {
+  margin-left: 120px;
+  margin-top: 30px;
+  width: 25%;
+  height: 10%;
+  font-family: sans-serif;
+}
+
+#dua img {
+  margin: 10px 0px 0px 150px;
+  width: 65%;
+  rotate: 12px;
+
+}
+
+.booking .col-md-10 {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.booking .onlineBooking {
+  font-family: "Caveat";
+  font-size: 40px;
+  color: rgba(255, 135, 71, 1);
+  margin-bottom: -5px;
+}
+
+.booking .tableBooking {
+  font-family: Merriweather;
+  font-size: 50px;
+  margin-top: -20px;
+  font-weight: 500;
+}
+
+.booking select,
+.booking input {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid black;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+.booking button {
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 120px;
+  height: 35px;
+  background-color: rgba(255, 135, 71, 1);
+  font-family: Merriweather;
+  color: white;
+  margin-bottom: 100px;
+
+}
+
+.booking button:hover {
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 120px;
+  height: 35px;
+  background-color: rgba(255, 135, 71, 0.5);
+  font-family: Merriweather;
+  color: white;
+  margin-bottom: 100px;
+  transition: 0.3s;
+
+}
+
+
+.review-box {
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.review-header {
+  text-align: center;
+}
+
+.reviewer-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+.rating {
+  text-align: center;
+  font-size: 24px;
+  color: #ff9800;
+}
+
+.review-text {
+  margin: 10px 0;
+}
+
+.ornament {
+  text-align: center;
+}
+
+.slider-container {
+  width: 400px;
+  overflow: hidden;
+  position: relative;
+  cursor: grab;
+  user-select: none;
+}
+
+.slider-content {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-item {
+  width: 400px;
+  height: 300px;
+  flex-shrink: 0;
+}
+
+.slider-indicator {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.indicator-ball {
+  width: 15px;
+  height: 15px;
+  background-color: #999;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}

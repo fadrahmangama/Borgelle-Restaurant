@@ -1,0 +1,134 @@
+.row{
+    height: 500px;
+}
+
+.pop-menu .row{
+  height: 600px;
+}
+
+.pop-menu .kolom2{
+    display: flex;
+}
+
+.promo-header h1{
+    margin-top: 10px;
+    font-family: Merriweather;
+    text-align: center;
+    font-weight: 500;
+}
+
+.promo-header h1 span{
+    color: rgba(255, 135, 71,1);
+}
+.slides{
+    display: flex;
+}
+.promo-images{
+    width: 100%;
+    transition: 2s;
+}
+
+.promo-images img{
+    height: 400px;
+    width: 1010px;
+}
+
+.promo-wrapper{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#slide-1:target ~ .promo-images{
+    margin-left: 0;
+}
+
+#slide-2:target ~ .promo-images{
+    margin-left: -100%;
+    margin-right: 100%;
+}
+
+#slide-3:target ~ .promo-images{
+    margin-left: -200%;
+    margin-right: 200%;
+}
+
+.navigation{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.navigation a{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    margin: 5px;
+    background-color: rgb(153, 153, 153);
+    font-size: 0px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.navigation a:hover{
+    background-color: rgba(255, 135, 71,1);
+}
+
+@media screen and (max-width:800px) {
+    .promo-wrapper{
+        width: 90%;
+    }
+}
+
+.pop-menu-header h1{
+    margin-top: 10px;
+    padding-left: 20px;
+    font-family: Merriweather;
+    text-align: center;
+    font-weight: 800;
+}
+
+.pop-menu-header h1 span{
+    color: rgba(255, 135, 71,1);
+}
+
+.pop-menu-tulisan{
+    margin-left:20px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pop-menu .tambah{
+    height: 200px;
+}
+
+.pop-menu .kolom-kiri h3{
+    font-family: sans-serif;
+    font-weight: 800;
+}
+.pop-menu a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.kol1 a{
+    color: white;
+}
+
+.kol2 a, .kol3 a, .kol4 a, .kol5 a{
+  color: black;
+}
+
+.kol2 a:hover,.kol3 a:hover, .kol4 a:hover, .kol5 a:hover{
+  font-weight: 700;
+}
+
+.pop-menu .deh img{
+    width: 100x;
+    height: 100px;
+}

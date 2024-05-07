@@ -1,0 +1,152 @@
+.icon{
+  background-color:white;
+  margin-bottom:10px;
+  margin-top:8px;
+}
+#navbar{
+  box-sizing:border-box;
+  background-color:white;
+  text-align:center;
+  background-color: black;
+}
+#navbar li{
+  list-style:none;
+  display:inline-block;
+  margin: 40px 9px 0px 9px;
+  font-size:18px;
+}
+
+#navbar li a{
+  text-decoration:none;
+  color:white;
+}
+
+#tambahan{
+  margin: auto;
+  text-align:right;
+}
+
+#tambahan button{
+  margin-right:50px;
+  width:75px;
+  height:40px;
+  font-size:16px;
+}
+#tambahan img{
+  width:25px;
+  margin-right:13px;
+  margin-left:5px;
+}
+
+#hitam{
+    background-color: black;
+}
+
+.head1{
+    background-color: black;
+}
+
+#logo img{
+    width: 60%;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+.header img{
+  width:500px;
+}
+
+#satu .tulisan{
+    text-align: justify;
+    margin-top: 150px;
+    margin-left: 120px;
+    font-family: Georgia, serif;
+    font-weight: 900;
+}
+
+#satu h2{
+    font-size: 50px;
+}
+
+#satu a{
+  color: white;
+  text-decoration: none;
+}
+
+#satu button{
+    margin-left: 120px;
+    margin-top: 30px;
+    width: 25%;
+    height: 10%;
+    font-family: sans-serif;
+}
+
+#dua img{
+  margin:10px 0px 0px 150px;
+  width: 65%;
+  rotate: 12px;
+  
+}
+
+.booking .col-md-10{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.booking .onlineBooking {
+    font-family: "Caveat";
+    font-size:40px;
+    color:rgba(255, 135, 71, 1);
+    margin-bottom: -5px;
+}
+
+.booking .tableBooking {
+    font-family: Merriweather;
+    font-size: 50px;
+    margin-top: -20px;
+    font-weight: 500;
+}
+
+.booking select, .booking input{
+    margin-left:5px;
+    margin-right: 5px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.booking button{
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 120px;
+    height: 35px;
+    background-color:rgba(255, 135, 71, 1);
+    font-family: Merriweather;
+    color: white;
+    margin-bottom: 100px;
+
+}
+
+.booking button:hover{
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 120px;
+    height: 35px;
+    background-color:rgba(255, 135, 71, 0.5);
+    font-family: Merriweather;
+    color: white;
+    margin-bottom: 100px;
+    transition: 0.3s;
+
+}
+
+.booking a{
+  color: white;
+  text-decoration: none;
+}

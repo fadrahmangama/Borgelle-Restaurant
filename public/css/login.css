@@ -1,0 +1,85 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: Arial, sans-serif;
+    color: #f9f9f9;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Nilai alpha di sini mengatur tingkat kejernihan (opacity) overlay */
+    z-index: -1;
+  }
+  
+  .container {
+    background: #101010;
+    width: 70%;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .center-content {
+    text-align: center;
+    margin: 15px;
+  }
+  
+  .center-content button {
+    display: inline-block;
+  }
+  
+  .center-content a {
+    display: inline-block;
+    color: #f9f9f9;
+  }
+  
+  .logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    max-width: 400px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: inline-block;
+    width: 20%;
+    /* Anda bisa mengatur lebar sesuai kebutuhan Anda */
+    margin-right: 5px;
+    text-align: right;
+  }
+  
+  .form-group input {
+    width: 65%;
+    /* Menyesuaikan lebar input */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-button {
+    background: #ff9800;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  .login-button:hover {
+    background: #ffac33;
+  }
